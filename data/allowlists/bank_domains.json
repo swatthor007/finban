@@ -1,0 +1,271 @@
+{
+  "note": "Starter list. `headers` were checked against the TRAI 2020 list (registered to that bank). `domains` are registrable domains from general knowledge: NOT yet verified against each bank's site. TODO(hackathon): verify every `domains`/`apps` entry, set verified=true, add source + checked date. Never add a domain you haven't confirmed. 2026-11-05: added the .bank.in name each bank now redirects to (seen in scripts/domain_evidence.py output, docs/DOMAIN-EVIDENCE.md); still verified=false until confirmed.",
+  "banks": [
+    {
+      "id": "sbi",
+      "name_en": "State Bank of India",
+      "aliases": [
+        "sbi",
+        "state bank"
+      ],
+      "headers": [
+        "SBIBNK",
+        "SBIINB",
+        "SBIPSG",
+        "SBIUPI"
+      ],
+      "domains": [
+        "sbi.co.in",
+        "onlinesbi.sbi",
+        "sbi.bank.in"
+      ],
+      "verified": false
+    },
+    {
+      "id": "hdfc",
+      "name_en": "HDFC Bank",
+      "aliases": [
+        "hdfc"
+      ],
+      "headers": [
+        "HDFCBK"
+      ],
+      "domains": [
+        "hdfcbank.com",
+        "hdfc.bank.in"
+      ],
+      "verified": false
+    },
+    {
+      "id": "icici",
+      "name_en": "ICICI Bank",
+      "aliases": [
+        "icici"
+      ],
+      "headers": [
+        "ICICIB"
+      ],
+      "domains": [
+        "icicibank.com",
+        "icici.bank.in"
+      ],
+      "verified": false
+    },
+    {
+      "id": "axis",
+      "name_en": "Axis Bank",
+      "aliases": [
+        "axis"
+      ],
+      "headers": [
+        "AXISBK"
+      ],
+      "domains": [
+        "axisbank.com",
+        "axis.bank.in"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pnb",
+      "name_en": "Punjab National Bank",
+      "aliases": [
+        "pnb"
+      ],
+      "headers": [
+        "PNBSMS"
+      ],
+      "domains": [
+        "pnbindia.in",
+        "pnb.bank.in"
+      ],
+      "verified": false
+    },
+    {
+      "id": "canara",
+      "name_en": "Canara Bank",
+      "aliases": [
+        "canara"
+      ],
+      "headers": [
+        "CANBNK"
+      ],
+      "domains": [
+        "canarabank.com",
+        "canarabank.bank.in"
+      ],
+      "verified": false
+    },
+    {
+      "id": "bob",
+      "name_en": "Bank of Baroda",
+      "aliases": [
+        "bank of baroda",
+        "bob"
+      ],
+      "headers": [
+        "BOBSMS",
+        "BOBTXN"
+      ],
+      "domains": [
+        "bankofbaroda.in",
+        "bankofbaroda.bank.in"
+      ],
+      "verified": false
+    },
+    {
+      "id": "union",
+      "name_en": "Union Bank of India",
+      "aliases": [
+        "union bank"
+      ],
+      "headers": [
+        "UNIONB"
+      ],
+      "domains": [
+        "unionbankofindia.co.in",
+        "unionbankofindia.bank.in"
+      ],
+      "verified": false
+    },
+    {
+      "id": "kotak",
+      "name_en": "Kotak Mahindra Bank",
+      "aliases": [
+        "kotak"
+      ],
+      "headers": [
+        "KOTAKB"
+      ],
+      "domains": [
+        "kotak.com",
+        "kotak.bank.in"
+      ],
+      "verified": false
+    },
+    {
+      "id": "indian-bank",
+      "name_en": "Indian Bank",
+      "aliases": [
+        "indian bank"
+      ],
+      "headers": [
+        "INDBNK"
+      ],
+      "domains": [
+        "indianbank.in",
+        "indianbank.bank.in"
+      ],
+      "verified": false
+    },
+    {
+      "id": "iob",
+      "name_en": "Indian Overseas Bank",
+      "aliases": [
+        "iob",
+        "indian overseas"
+      ],
+      "headers": [
+        "IOBCHN",
+        "IOBANK"
+      ],
+      "domains": [
+        "iob.in",
+        "iob.bank.in"
+      ],
+      "verified": false
+    },
+    {
+      "id": "tmb",
+      "name_en": "Tamilnad Mercantile Bank",
+      "aliases": [
+        "tmb",
+        "tamilnad mercantile"
+      ],
+      "headers": [
+        "TMBANK"
+      ],
+      "domains": [
+        "tmb.in",
+        "tmb.bank.in"
+      ],
+      "verified": false
+    },
+    {
+      "id": "cub",
+      "name_en": "City Union Bank",
+      "aliases": [
+        "city union",
+        "cub"
+      ],
+      "headers": [
+        "CUBANK"
+      ],
+      "domains": [
+        "cityunionbank.com",
+        "cityunionbank.bank.in"
+      ],
+      "verified": false
+    },
+    {
+      "id": "kvb",
+      "name_en": "Karur Vysya Bank",
+      "aliases": [
+        "karur vysya",
+        "kvb"
+      ],
+      "headers": [
+        "KVBANK"
+      ],
+      "domains": [
+        "kvb.co.in",
+        "kvb.bank.in"
+      ],
+      "verified": false
+    },
+    {
+      "id": "paytm",
+      "name_en": "Paytm / Paytm Payments Bank",
+      "aliases": [
+        "paytm"
+      ],
+      "headers": [
+        "PAYTMB"
+      ],
+      "domains": [
+        "paytm.com",
+        "paytmbank.com"
+      ],
+      "verified": false
+    },
+    {
+      "id": "phonepe",
+      "name_en": "PhonePe",
+      "aliases": [
+        "phonepe"
+      ],
+      "headers": [
+        "PHONPE"
+      ],
+      "domains": [
+        "phonepe.com"
+      ],
+      "verified": false
+    },
+    {
+      "id": "npci",
+      "name_en": "NPCI (UPI)",
+      "aliases": [
+        "npci",
+        "upi"
+      ],
+      "headers": [
+        "NPCIBM"
+      ],
+      "domains": [
+        "npci.org.in"
+      ],
+      "verified": false
+    }
+  ]
+}

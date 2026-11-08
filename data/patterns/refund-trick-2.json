@@ -1,0 +1,28 @@
+{
+  "id": "refund-trick-2",
+  "name_ta": "பணம் கேட்கும் கோரிக்கை மோசடி",
+  "name_en": "Refund trick: collect request",
+  "severity": "high",
+  "text_cues": {
+    "ta": [],
+    "en": [
+      "refund",
+      "approve request",
+      "enter pin"
+    ],
+    "tanglish": []
+  },
+  "screen_cues": [],
+  "checks": [],
+  "title_ta": "பணம் கேட்கும் கோரிக்கை மோசடி போல் தெரிகிறது",
+  "explanation_ta": "பணம் வாங்க PIN போட வேண்டிய அவசியம் இல்லை.",
+  "explanation_en": "You never enter a PIN to receive money.",
+  "caretaker_summary_ta": "TODO(hackathon): Tamil",
+  "caretaker_summary_en": "TODO(hackathon): one line for caretakers",
+  "what_to_do": [
+    "TODO(hackathon): steps"
+  ],
+  "source": "TODO(hackathon): cite",
+  "source_date": null,
+  "last_reviewed": "2026-11-04"
+}

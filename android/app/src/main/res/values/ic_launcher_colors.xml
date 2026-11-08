@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Matches the logo's own background (logos/Finban main.png|svg), so any launcher mask that crops the adaptive
+         foreground reveals more of the same flat pink rather than a visible seam. -->
+    <color name="ic_launcher_background">#D23A55</color>
+</resources>

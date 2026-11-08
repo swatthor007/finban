@@ -1,0 +1,144 @@
+{
+  "sender_header": [
+    {
+      "in": "VM-SBIBNK",
+      "valid": true,
+      "prefix": "VM",
+      "header": "SBIBNK",
+      "suffix": null
+    },
+    {
+      "in": "AX-HDFCBK-S",
+      "valid": true,
+      "prefix": "AX",
+      "header": "HDFCBK",
+      "suffix": "S"
+    },
+    {
+      "in": "AX-HDFCBK-P",
+      "valid": true,
+      "prefix": "AX",
+      "header": "HDFCBK",
+      "suffix": "P"
+    },
+    {
+      "in": "+919876543210",
+      "valid": false
+    },
+    {
+      "in": "SBIBANK",
+      "valid": false
+    }
+  ],
+  "bank_from_mobile": [
+    {
+      "sender": "+919876543210",
+      "text": "SBI account blocked",
+      "severity": "high"
+    }
+  ],
+  "near_miss_header": [
+    {
+      "sender": "VM-SBIBNQ",
+      "known": "VM-SBIBNK",
+      "severity": "high"
+    }
+  ],
+  "link_flags": [
+    {
+      "url": "http://xn--sbi-kyc.top/a",
+      "flags": [
+        "punycode",
+        "risky_tld"
+      ]
+    },
+    {
+      "url": "http://bit.ly/3xYz",
+      "flags": [
+        "shortener"
+      ]
+    },
+    {
+      "url": "http://192.168.1.5/login",
+      "flags": [
+        "bare_ip"
+      ]
+    },
+    {
+      "url": "https://x.com/app.apk",
+      "flags": [
+        "apk"
+      ]
+    },
+    {
+      "url": "https://www.onlinesbi.sbi",
+      "flags": []
+    }
+  ],
+  "sender_type": [
+    {
+      "in": "AX-HDFCBK-S",
+      "format": "header",
+      "sms_type": "service",
+      "operator": "Bharti Airtel",
+      "circle": "Karnataka",
+      "entity_category": "bank"
+    },
+    {
+      "in": "VM-SBIBNK-T",
+      "format": "header",
+      "sms_type": "transactional",
+      "operator": "Vodafone Idea",
+      "circle": "Mumbai",
+      "entity_category": "bank"
+    },
+    {
+      "in": "JT-TMBANK-P",
+      "format": "header",
+      "sms_type": "promotional",
+      "operator": "Reliance Jio",
+      "circle": "Tamil Nadu (incl. Chennai)",
+      "entity_category": "bank"
+    },
+    {
+      "in": "BT-NPCIBM-G",
+      "format": "header",
+      "sms_type": "government",
+      "operator": "BSNL",
+      "circle": "Tamil Nadu (incl. Chennai)",
+      "entity_category": "payments"
+    },
+    {
+      "in": "VM-SBIBNK",
+      "format": "header",
+      "sms_type": "unspecified",
+      "entity_category": "bank"
+    },
+    {
+      "in": "AX-ZZQQXX-S",
+      "format": "header",
+      "sms_type": "service",
+      "registered": false
+    },
+    {
+      "in": "+919876543210",
+      "format": "mobile_number",
+      "sms_type": "person_number"
+    },
+    {
+      "in": "56767",
+      "format": "shortcode",
+      "sms_type": "shortcode"
+    },
+    {
+      "in": "SBIBANK",
+      "format": "other",
+      "sms_type": "unknown_format"
+    },
+    {
+      "in": null,
+      "format": "none",
+      "sms_type": "unknown"
+    }
+  ]
+}

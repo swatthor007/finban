@@ -1,0 +1,29 @@
+{
+  "id": "reward-fee",
+  "name_ta": "பரிசு / கட்டண மோசடி",
+  "name_en": "Reward / prize fee",
+  "severity": "high",
+  "text_cues": {
+    "ta": [],
+    "en": [
+      "you won",
+      "processing fee",
+      "claim",
+      "lottery"
+    ],
+    "tanglish": []
+  },
+  "screen_cues": [],
+  "checks": [],
+  "title_ta": "பரிசு மோசடி போல் தெரிகிறது",
+  "explanation_ta": "பரிசு வாங்க கட்டணம் கட்ட வேண்டிய அவசியம் இல்லை.",
+  "explanation_en": "Prizes do not need a fee.",
+  "caretaker_summary_ta": "TODO(hackathon): Tamil",
+  "caretaker_summary_en": "TODO(hackathon): one line for caretakers",
+  "what_to_do": [
+    "TODO(hackathon): steps"
+  ],
+  "source": "TODO(hackathon): cite",
+  "source_date": null,
+  "last_reviewed": "2026-11-04"
+}

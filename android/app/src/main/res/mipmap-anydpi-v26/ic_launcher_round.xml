@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adaptive icon (API 26+). The foreground MUST be a differently-named resource: pointing it back at
+     "@mipmap/ic_launcher" (the same name as this very selector file) makes Android resolve that reference back to
+     this XML again on API 26+, fail to inflate it, and silently fall back to the generic placeholder icon. -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/ic_launcher_background" />
+    <foreground android:drawable="@mipmap/ic_launcher_foreground" />
+</adaptive-icon>

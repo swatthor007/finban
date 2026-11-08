@@ -1,0 +1,29 @@
+{
+  "id": "investment-group",
+  "name_ta": "முதலீட்டுக் குழு மோசடி",
+  "name_en": "Investment group",
+  "severity": "high",
+  "text_cues": {
+    "ta": [],
+    "en": [
+      "guaranteed returns",
+      "vip group",
+      "stock tips",
+      "double your money"
+    ],
+    "tanglish": []
+  },
+  "screen_cues": [],
+  "checks": [],
+  "title_ta": "முதலீட்டு மோசடி போல் தெரிகிறது",
+  "explanation_ta": "நிச்சய லாபம் என்று சொன்னால் அது ஒரு எச்சரிக்கை அறிகுறி.",
+  "explanation_en": "A promise of fixed profit is a warning sign.",
+  "caretaker_summary_ta": "TODO(hackathon): Tamil",
+  "caretaker_summary_en": "TODO(hackathon): one line for caretakers",
+  "what_to_do": [
+    "TODO(hackathon): steps"
+  ],
+  "source": "TODO(hackathon): cite",
+  "source_date": null,
+  "last_reviewed": "2026-11-04"
+}

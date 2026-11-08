@@ -1,0 +1,6 @@
+{
+  "note": "URL shorteners: a link through one hides its destination, so the server expands it (never the phone). Small hand-picked set. TODO(hackathon): find a maintained list and cite it.",
+  "source": "TODO(hackathon): cite",
+  "checked": null,
+  "domains": ["bit.ly", "tinyurl.com", "t.co", "goo.gl", "cutt.ly", "rb.gy", "is.gd", "shorturl.at"]
+}

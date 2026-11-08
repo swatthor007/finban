@@ -1,0 +1,6 @@
+{
+  "note": "Rule, not a list: any host at or under these suffixes counts as official (matched on the Public Suffix List suffix, so `evil-gov.in` and `gov.in.evil.com` do not match). *.gov.in names are registered to government bodies only; nic.in is the National Informatics Centre. Specific government brands (UIDAI, Income Tax, EPFO...) live in brands.json with verified=false. A 7k-host gist of gov.in sites was found to be stale: use it for names only, never as the allowlist. TODO(hackathon): confirm the registration policy for gov.in / nic.in and cite it.",
+  "official_suffixes": ["gov.in", "nic.in"],
+  "source": null,
+  "verified": false
+}

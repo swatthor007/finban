@@ -1,0 +1,29 @@
+{
+  "id": "sim-swap-signs",
+  "name_ta": "SIM மாற்று மோசடி அறிகுறிகள்",
+  "name_en": "SIM swap signs",
+  "severity": "high",
+  "text_cues": {
+    "ta": [],
+    "en": [
+      "sim card",
+      "sim upgrade",
+      "no signal",
+      "4g to 5g"
+    ],
+    "tanglish": []
+  },
+  "screen_cues": [],
+  "checks": [],
+  "title_ta": "SIM மாற்று மோசடி போல் தெரிகிறது",
+  "explanation_ta": "திடீரென சிக்னல் போய், OTP மெசேஜ்கள் வந்தால் அது SIM மாற்று மோசடியாக இருக்கலாம்.",
+  "explanation_en": "Sudden loss of signal plus OTP texts can mean SIM swap.",
+  "caretaker_summary_ta": "TODO(hackathon): Tamil",
+  "caretaker_summary_en": "TODO(hackathon): one line for caretakers",
+  "what_to_do": [
+    "TODO(hackathon): steps"
+  ],
+  "source": "TODO(hackathon): cite",
+  "source_date": null,
+  "last_reviewed": "2026-11-04"
+}

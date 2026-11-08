@@ -1,0 +1,10 @@
+{
+  "source": "screen",
+  "app_package": "com.whatsapp",
+  "sender": "+919840012345",
+  "text": "This is CBI. You are under digital arrest. Stay on video call and do not tell anyone.",
+  "links": [],
+  "image_id": null,
+  "context": {"in_call": true, "caller_unknown": true, "call_type": "voip"},
+  "locale": "ta-IN"
+}

@@ -1,0 +1,6 @@
+{
+  "note": "Free tunnel services that put a website running on someone's own computer on a temporary public address. Anyone can make one in minutes and banks or government offices do not use them. Matched on the registrable domain. Small hand-picked set. TODO(hackathon): cite a maintained list.",
+  "source": "TODO(hackathon): cite",
+  "checked": null,
+  "domains": ["ngrok-free.dev", "ngrok-free.app", "ngrok.app", "ngrok.dev", "ngrok.io", "trycloudflare.com", "loca.lt", "serveo.net", "localhost.run", "lhr.life"]
+}

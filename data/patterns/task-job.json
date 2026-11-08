@@ -1,0 +1,31 @@
+{
+  "id": "task-job",
+  "name_ta": "டாஸ்க் / வேலை மோசடி",
+  "name_en": "Task / job scam",
+  "severity": "high",
+  "text_cues": {
+    "ta": [],
+    "en": [
+      "like videos",
+      "liking videos",
+      "daily",
+      "registration",
+      "telegram",
+      "earn rs"
+    ],
+    "tanglish": []
+  },
+  "screen_cues": [],
+  "checks": [],
+  "title_ta": "வேலை மோசடி போல் தெரிகிறது",
+  "explanation_ta": "நல்ல வேலைக்கு முதலில் பணம் கட்டச் சொல்ல மாட்டார்கள்.",
+  "explanation_en": "Honest jobs do not ask you to pay first.",
+  "caretaker_summary_ta": "TODO(hackathon): Tamil",
+  "caretaker_summary_en": "TODO(hackathon): one line for caretakers",
+  "what_to_do": [
+    "TODO(hackathon): steps"
+  ],
+  "source": "TODO(hackathon): cite",
+  "source_date": null,
+  "last_reviewed": "2026-11-04"
+}

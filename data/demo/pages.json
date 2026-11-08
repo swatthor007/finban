@@ -1,0 +1,25 @@
+{
+  "note": "Demo pages served at /demo. The three bank pages name SBI but have no form, script or typing. All other organisations are fictional. `bubble` and `link_check` are checked by server/tests/test_demo_pages.py against the real rules on a tunnel address. Sample {base} = the server's public address.",
+  "groups": ["Fake logins", "Lottery and prizes", "Other scams"],
+  "pages": [
+    {"slug": "bank-login", "group": "Fake logins", "theme": "", "title": "SBI NetBanking login", "label": "Bank login", "shows": "An ordinary-looking login. The closer look is what catches the fake bank.", "bubble": "careful", "link_check": "high"},
+    {"slug": "kyc-update", "group": "Fake logins", "theme": "", "title": "SBI KYC Update", "label": "Account blocked, update KYC", "shows": "Panic message that asks for Aadhaar, PAN and OTP.", "bubble": "high", "link_check": "high"},
+    {"slug": "card-verify", "group": "Fake logins", "theme": "", "title": "SBI Rewards", "label": "Reward points card check", "shows": "Asks for card details on a site that is not the bank.", "bubble": "high", "link_check": "high"},
+    {"slug": "lucky-draw", "group": "Lottery and prizes", "theme": "lottery", "title": "Golden Star Lucky Draw", "label": "Lottery win, pay a fee", "shows": "A big prize, a small fee and a countdown. Asks for the UPI PIN.", "bubble": "high", "link_check": "careful"},
+    {"slug": "prize-app", "group": "Lottery and prizes", "theme": "lottery", "title": "Golden Star Prize Claim", "label": "Install an app to claim", "shows": "Pushes a download. The file is plain text and cannot install.", "bubble": "high", "link_check": "careful"},
+    {"slug": "parcel-fee", "group": "Lottery and prizes", "theme": "market", "title": "SwiftDemo Parcel Redelivery", "label": "Small parcel fee", "shows": "A tiny fee used to collect card details.", "bubble": "high", "link_check": "careful"},
+    {"slug": "pension-bonus", "group": "Other scams", "theme": "gov", "title": "Senior Citizen Pension Bonus", "label": "Pension bonus scheme", "shows": "A government-style offer that asks for Aadhaar and bank details.", "bubble": "high", "link_check": "careful"},
+    {"slug": "police-notice", "group": "Other scams", "theme": "alert", "title": "Cyber Police Notice", "label": "Digital arrest notice", "shows": "A threat with no link or form. Only the words give it away.", "bubble": "high", "link_check": "careful"},
+    {"slug": "stock-tips", "group": "Other scams", "theme": "market", "title": "Golden Bull VIP Group", "label": "Guaranteed stock tips", "shows": "An investment group promising impossible returns.", "bubble": "high", "link_check": "careful"},
+    {"slug": "easy-job", "group": "Other scams", "theme": "market", "title": "HomeEarn Daily Tasks", "label": "Easy job from home", "shows": "Paid to like videos, with a registration fee.", "bubble": "high", "link_check": "careful"}
+  ],
+  "samples": [
+    {"id": "kyc", "label": "KYC link", "expect": "high", "sender": "9876500001", "text": "Dear customer your SBI account is blocked. Update KYC now at {base}/demo/kyc-update"},
+    {"id": "login", "label": "Login link", "expect": "high", "sender": "9876500002", "text": "Your bank account is suspended. Log in today at {base}/demo/bank-login"},
+    {"id": "lottery", "label": "Lottery fee", "expect": "high", "sender": "9876500003", "text": "Congratulations you won Rs 25 lakh in the lottery! Pay processing fee Rs 999 to claim: {base}/demo/lucky-draw"},
+    {"id": "apk", "label": "App download", "expect": "high", "sender": "9876500004", "text": "You won a gold coin. Install the app to claim: {base}/demo/files/golden-star-prize.apk"},
+    {"id": "parcel", "label": "Parcel fee", "expect": "careful", "sender": "9876500005", "text": "Your parcel is on hold. Pay Rs 25 today: {base}/demo/parcel-fee"},
+    {"id": "police", "label": "Digital arrest", "expect": "high", "sender": "9876500006", "text": "This is the cyber police. You are under digital arrest. Stay on the video call and do not tell anyone."},
+    {"id": "family", "label": "Family emergency", "expect": "high", "sender": "9876500007", "text": "Amma I lost my phone, this is my new number. I am in hospital, please send Rs 20,000 urgently."}
+  ]
+}

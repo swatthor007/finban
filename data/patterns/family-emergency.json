@@ -1,0 +1,47 @@
+{
+  "id": "family-emergency",
+  "name_ta": "குடும்ப அவசர மோசடி",
+  "name_en": "Family emergency money request",
+  "severity": "high",
+  "text_cues": {
+    "ta": [],
+    "en": [
+      "accident",
+      "hospital",
+      "surgery",
+      "in trouble",
+      "arrested",
+      "police station",
+      "urgently",
+      "emergency",
+      "new number",
+      "lost my phone",
+      "do not tell",
+      "don't tell",
+      "please help",
+      "your son",
+      "your grandson",
+      "your daughter",
+      "mom",
+      "appa",
+      "amma"
+    ],
+    "tanglish": []
+  },
+  "require_any": [
+    "@money"
+  ],
+  "screen_cues": [],
+  "checks": [],
+  "title_ta": "குடும்ப அவசர மோசடி போல் தெரிகிறது",
+  "explanation_ta": "மோசடிக்காரர்கள் உறவினர் போல் நடித்து, அவசரம் என்று பணம் கேட்பார்கள். பணம் அனுப்பும் முன், உங்களிடம் ஏற்கெனவே உள்ள எண்ணில் அவருக்கு போன் செய்து கேளுங்கள்.",
+  "explanation_en": "Scammers pretend to be a relative in an emergency and ask for money fast. Call your family member on the number you already have before you pay.",
+  "caretaker_summary_ta": "TODO(hackathon): Tamil",
+  "caretaker_summary_en": "TODO(hackathon): one line for caretakers",
+  "what_to_do": [
+    "TODO(hackathon): steps"
+  ],
+  "source": "TODO(hackathon): cite",
+  "source_date": null,
+  "last_reviewed": "2026-11-05"
+}

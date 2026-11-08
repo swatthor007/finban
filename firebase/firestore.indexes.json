@@ -1,0 +1,1 @@
+{"indexes":[{"collectionGroup":"alerts","queryScope":"COLLECTION","fields":[{"fieldPath":"caretaker_uids","arrayConfig":"CONTAINS"},{"fieldPath":"created_at","order":"DESCENDING"}]}],"fieldOverrides":[]}

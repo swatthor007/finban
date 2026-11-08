@@ -1,0 +1,31 @@
+{
+  "id": "customer-care-screen-share",
+  "name_ta": "ஸ்கிரீன் ஷேர் மோசடி",
+  "name_en": "Screen-share support",
+  "severity": "high",
+  "text_cues": {
+    "ta": [],
+    "en": [
+      "anydesk",
+      "teamviewer",
+      "quicksupport",
+      "screen share",
+      "customer care",
+      "install"
+    ],
+    "tanglish": []
+  },
+  "screen_cues": [],
+  "checks": [],
+  "title_ta": "ஸ்கிரீன் ஷேர் மோசடி போல் தெரிகிறது",
+  "explanation_ta": "கஸ்டமர் கேர் ஆட்கள் உங்கள் ஸ்கிரீனைப் பார்க்க வேண்டிய தேவையே இல்லை.",
+  "explanation_en": "Support staff never need to see your screen.",
+  "caretaker_summary_ta": "TODO(hackathon): Tamil",
+  "caretaker_summary_en": "TODO(hackathon): one line for caretakers",
+  "what_to_do": [
+    "TODO(hackathon): steps"
+  ],
+  "source": "TODO(hackathon): cite",
+  "source_date": null,
+  "last_reviewed": "2026-11-04"
+}

@@ -1,0 +1,476 @@
+{
+  "note": "Brands scammers impersonate. `aliases` are matched in link hosts and email display names (see domains.py: aliases of 4 chars or fewer must be a whole token or token + scam word, longer ones may appear anywhere). Entries with `bank_id` take name, aliases and domains from bank_domains.json. Everything here is UNVERIFIED: domains come from general knowledge, not from each organisation's site. TODO(hackathon): verify each entry in one batch, then set verified=true and fill source + checked. Never add a domain that has not been confirmed. Government hosts are covered by the *.gov.in / nic.in rule, so a gov entry only needs aliases. `neutral_regs`: domains that contain the alias but are not impersonation (e.g. amazonaws.com): the brand claim is ignored there, other checks still run. Shopping and delivery entries were added 2026-11-04 from memory: domains NOT verified. Most `neutral_regs` entries for the shopping brands were generated from the Tranco top-20k popularity list (popular domains containing the alias), so genuine regional/CDN/jobs domains (amazon.de, media-amazon.com ...) are not flagged.",
+  "brands": [
+    {
+      "id": "sbi",
+      "bank_id": "sbi",
+      "category": "bank",
+      "verified": false
+    },
+    {
+      "id": "hdfc",
+      "bank_id": "hdfc",
+      "category": "bank",
+      "verified": false
+    },
+    {
+      "id": "icici",
+      "bank_id": "icici",
+      "category": "bank",
+      "verified": false
+    },
+    {
+      "id": "axis",
+      "bank_id": "axis",
+      "category": "bank",
+      "verified": false
+    },
+    {
+      "id": "pnb",
+      "bank_id": "pnb",
+      "category": "bank",
+      "verified": false
+    },
+    {
+      "id": "canara",
+      "bank_id": "canara",
+      "category": "bank",
+      "verified": false
+    },
+    {
+      "id": "bob",
+      "bank_id": "bob",
+      "category": "bank",
+      "verified": false
+    },
+    {
+      "id": "union",
+      "bank_id": "union",
+      "category": "bank",
+      "verified": false
+    },
+    {
+      "id": "kotak",
+      "bank_id": "kotak",
+      "category": "bank",
+      "verified": false
+    },
+    {
+      "id": "indian-bank",
+      "bank_id": "indian-bank",
+      "category": "bank",
+      "verified": false
+    },
+    {
+      "id": "iob",
+      "bank_id": "iob",
+      "category": "bank",
+      "verified": false
+    },
+    {
+      "id": "tmb",
+      "bank_id": "tmb",
+      "category": "bank",
+      "verified": false
+    },
+    {
+      "id": "cub",
+      "bank_id": "cub",
+      "category": "bank",
+      "verified": false
+    },
+    {
+      "id": "kvb",
+      "bank_id": "kvb",
+      "category": "bank",
+      "verified": false
+    },
+    {
+      "id": "paytm",
+      "bank_id": "paytm",
+      "category": "payment",
+      "verified": false
+    },
+    {
+      "id": "phonepe",
+      "bank_id": "phonepe",
+      "category": "payment",
+      "verified": false
+    },
+    {
+      "id": "npci",
+      "bank_id": "npci",
+      "category": "payment",
+      "verified": false
+    },
+    {
+      "id": "gpay",
+      "name_en": "Google Pay",
+      "aliases": [
+        "gpay",
+        "google pay"
+      ],
+      "category": "payment",
+      "domains": [],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "uidai",
+      "name_en": "UIDAI (Aadhaar)",
+      "aliases": [
+        "uidai",
+        "aadhaar"
+      ],
+      "category": "gov",
+      "domains": [
+        "uidai.gov.in"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "incometax",
+      "name_en": "Income Tax Department",
+      "aliases": [
+        "income tax",
+        "incometax"
+      ],
+      "category": "gov",
+      "domains": [
+        "incometax.gov.in"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "epfo",
+      "name_en": "EPFO",
+      "aliases": [
+        "epfo",
+        "epf"
+      ],
+      "category": "gov",
+      "domains": [
+        "epfindia.gov.in"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "indiapost",
+      "name_en": "India Post",
+      "aliases": [
+        "india post",
+        "indiapost"
+      ],
+      "category": "gov",
+      "domains": [
+        "indiapost.gov.in"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "tneb",
+      "name_en": "TANGEDCO / TNEB (electricity)",
+      "aliases": [
+        "tneb",
+        "tangedco"
+      ],
+      "category": "gov",
+      "domains": [
+        "tangedco.gov.in"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "irctc",
+      "name_en": "IRCTC",
+      "aliases": [
+        "irctc"
+      ],
+      "category": "transport",
+      "domains": [
+        "irctc.co.in"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "jio",
+      "name_en": "Jio",
+      "aliases": [
+        "jio"
+      ],
+      "category": "telecom",
+      "domains": [
+        "jio.com"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "airtel",
+      "name_en": "Airtel",
+      "aliases": [
+        "airtel"
+      ],
+      "category": "telecom",
+      "domains": [
+        "airtel.in"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "bsnl",
+      "name_en": "BSNL",
+      "aliases": [
+        "bsnl"
+      ],
+      "category": "telecom",
+      "domains": [
+        "bsnl.co.in"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "amazon",
+      "name_en": "Amazon",
+      "aliases": [
+        "amazon",
+        "amzn"
+      ],
+      "category": "shopping",
+      "domains": [
+        "amazon.in",
+        "amazon.com",
+        "amazon.co.in",
+        "amzn.in",
+        "amzn.to"
+      ],
+      "verified": false,
+      "source": null,
+      "neutral_regs": [
+        "aboutamazon.com",
+        "amazon-ads-attestation.com",
+        "amazon-adsystem.com",
+        "amazon-dss.com",
+        "amazon.ae",
+        "amazon.ca",
+        "amazon.cn",
+        "amazon.co.jp",
+        "amazon.co.uk",
+        "amazon.co.za",
+        "amazon.com.au",
+        "amazon.com.br",
+        "amazon.com.mx",
+        "amazon.com.tr",
+        "amazon.de",
+        "amazon.dev",
+        "amazon.eg",
+        "amazon.es",
+        "amazon.eu",
+        "amazon.fr",
+        "amazon.ie",
+        "amazon.it",
+        "amazon.jobs",
+        "amazon.nl",
+        "amazon.pl",
+        "amazon.sa",
+        "amazon.se",
+        "amazon.sg",
+        "amazon.work",
+        "amazonalexa.com",
+        "amazonaws.com",
+        "amazonaws.com.cn",
+        "amazonaws.eu",
+        "amazoncognito.com",
+        "amazoncrl.com",
+        "amazonses.com",
+        "amazonsilk.com",
+        "amazontrust.com",
+        "amazonvideo.com",
+        "amazonworkspaces.com",
+        "amzn.eu",
+        "assoc-amazon.com",
+        "images-amazon.com",
+        "jobsatamazon.co.uk",
+        "media-amazon.com",
+        "siege-amazon.com",
+        "ssl-images-amazon.com"
+      ]
+    },
+    {
+      "id": "flipkart",
+      "name_en": "Flipkart",
+      "aliases": [
+        "flipkart"
+      ],
+      "category": "shopping",
+      "domains": [
+        "flipkart.com"
+      ],
+      "verified": false,
+      "source": null,
+      "neutral_regs": [
+        "flipkart.net"
+      ]
+    },
+    {
+      "id": "myntra",
+      "name_en": "Myntra",
+      "aliases": [
+        "myntra"
+      ],
+      "category": "shopping",
+      "domains": [
+        "myntra.com"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "meesho",
+      "name_en": "Meesho",
+      "aliases": [
+        "meesho"
+      ],
+      "category": "shopping",
+      "domains": [
+        "meesho.com"
+      ],
+      "verified": false,
+      "source": null,
+      "neutral_regs": [
+        "meeshoapi.com",
+        "meeshogcp.in"
+      ]
+    },
+    {
+      "id": "ajio",
+      "name_en": "Ajio",
+      "aliases": [
+        "ajio"
+      ],
+      "category": "shopping",
+      "domains": [
+        "ajio.com"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "nykaa",
+      "name_en": "Nykaa",
+      "aliases": [
+        "nykaa"
+      ],
+      "category": "shopping",
+      "domains": [
+        "nykaa.com"
+      ],
+      "verified": false,
+      "source": null,
+      "neutral_regs": [
+        "nykaafashion.com"
+      ]
+    },
+    {
+      "id": "bigbasket",
+      "name_en": "BigBasket",
+      "aliases": [
+        "bigbasket"
+      ],
+      "category": "shopping",
+      "domains": [
+        "bigbasket.com"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "blinkit",
+      "name_en": "Blinkit",
+      "aliases": [
+        "blinkit"
+      ],
+      "category": "shopping",
+      "domains": [
+        "blinkit.com"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "swiggy",
+      "name_en": "Swiggy",
+      "aliases": [
+        "swiggy"
+      ],
+      "category": "shopping",
+      "domains": [
+        "swiggy.com"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "zomato",
+      "name_en": "Zomato",
+      "aliases": [
+        "zomato"
+      ],
+      "category": "shopping",
+      "domains": [
+        "zomato.com"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "dtdc",
+      "name_en": "DTDC",
+      "aliases": [
+        "dtdc"
+      ],
+      "category": "delivery",
+      "domains": [
+        "dtdc.com",
+        "dtdc.in"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "bluedart",
+      "name_en": "Blue Dart",
+      "aliases": [
+        "bluedart",
+        "blue dart"
+      ],
+      "category": "delivery",
+      "domains": [
+        "bluedart.com"
+      ],
+      "verified": false,
+      "source": null
+    },
+    {
+      "id": "delhivery",
+      "name_en": "Delhivery",
+      "aliases": [
+        "delhivery"
+      ],
+      "category": "delivery",
+      "domains": [
+        "delhivery.com"
+      ],
+      "verified": false,
+      "source": null
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "note": "TLDs cheap/free to register and often abused. WEAK signal: raises 'careful' only, never 'high' alone. Current set is the harness guess, not data. TODO(hackathon): replace/cite with Spamhaus 'most abused TLDs' and record the date. Do not add .ly (bit.ly is a legitimate shortener, handled in shorteners.json).",
+  "source": "TODO(hackathon): cite",
+  "checked": null,
+  "tlds": ["top", "xyz", "click", "icu", "buzz", "cfd", "sbs", "live", "vip", "work", "rest"]
+}

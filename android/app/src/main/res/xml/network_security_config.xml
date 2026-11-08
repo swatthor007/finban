@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO(hackathon): prototype talks to the server over plain http (Tailscale / same Wi-Fi). Remove cleartext before any real release. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

@@ -1,0 +1,30 @@
+{
+  "source": "TRAI note on headers (data/sms/official_domains.pdf, misnamed)",
+  "note": "Prefix = operator letter + circle letter, e.g. VM = Vodafone Idea, Mumbai. Combos seen in the wild that are not in this table are not by themselves a scam signal.",
+  "operators": {
+    "D": "Aircel / Dishnet Wireless",
+    "A": "Bharti Airtel",
+    "B": "BSNL",
+    "Q": "Quadrant Televentures",
+    "M": "MTNL",
+    "R": "Reliance Communications",
+    "J": "Reliance Jio",
+    "E": "Reliance Telecom",
+    "T": "Tata Teleservices",
+    "V": "Vodafone Idea",
+    "C": "V-CON Mobile & Infra"
+  },
+  "circles": {
+    "A": "Andhra Pradesh", "S": "Assam", "B": "Bihar", "D": "Delhi", "G": "Gujarat",
+    "H": "Haryana", "I": "Himachal Pradesh", "J": "Jammu & Kashmir", "X": "Karnataka",
+    "L": "Kerala", "K": "Kolkata", "Y": "Madhya Pradesh", "Z": "Maharashtra",
+    "M": "Mumbai", "N": "North East", "O": "Orissa", "P": "Punjab", "R": "Rajasthan",
+    "T": "Tamil Nadu (incl. Chennai)", "E": "UP East", "W": "UP West", "V": "West Bengal"
+  },
+  "suffix": {
+    "S": "service",
+    "P": "promotional",
+    "T": "transactional",
+    "G": "government"
+  }
+}

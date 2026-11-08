@@ -1,0 +1,28 @@
+{
+  "id": "refund-trick-3",
+  "name_ta": "கஸ்டமர் கேர் ரீஃபண்ட் மோசடி",
+  "name_en": "Refund trick: customer care",
+  "severity": "high",
+  "text_cues": {
+    "ta": [],
+    "en": [
+      "refund",
+      "customer care",
+      "install"
+    ],
+    "tanglish": []
+  },
+  "screen_cues": [],
+  "checks": [],
+  "title_ta": "ரீஃபண்ட் மோசடி போல் தெரிகிறது",
+  "explanation_ta": "பணம் திரும்ப வர எந்த ஆப்பையும் இன்ஸ்டால் செய்ய வேண்டாம்.",
+  "explanation_en": "Refunds do not need an app install.",
+  "caretaker_summary_ta": "TODO(hackathon): Tamil",
+  "caretaker_summary_en": "TODO(hackathon): one line for caretakers",
+  "what_to_do": [
+    "TODO(hackathon): steps"
+  ],
+  "source": "TODO(hackathon): cite",
+  "source_date": null,
+  "last_reviewed": "2026-11-04"
+}

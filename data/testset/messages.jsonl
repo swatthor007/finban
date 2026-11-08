@@ -1,0 +1,33 @@
+{"sender": "+919876543210", "text": "Dear customer your SBI account is blocked. Update KYC now http://sbi-kyc-update.top/login", "expect": "high", "pattern_id": "fake-kyc", "lang": "en", "source": "synthetic"}
+{"sender": "VM-SBIBNK", "text": "Your A/c XX1234 debited Rs 500 on 03-11. Not you? Call bank helpline.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": null, "text": "This is CBI. A parcel in your name has drugs. You are under digital arrest. Stay on video call and do not tell anyone.", "expect": "high", "pattern_id": "digital-arrest", "lang": "en", "source": "synthetic"}
+{"sender": "AX-HDFCBK-S", "text": "Your OTP is 482913. Do not share with anyone.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": null, "text": "Sir I sent Rs 5000 by mistake to your number. Please send it back to this UPI id.", "expect": "high", "pattern_id": "refund-trick-1", "lang": "en", "source": "synthetic"}
+{"sender": null, "text": "Earn Rs 3000 daily by liking videos. Join our Telegram group, pay Rs 500 registration.", "expect": "high", "pattern_id": "task-job", "lang": "en", "source": "synthetic"}
+{"sender": "+918899001122", "text": "Congratulations! You won a reward. Pay Rs 99 processing fee to claim.", "expect": "high", "pattern_id": "reward-fee", "lang": "en", "source": "synthetic"}
+{"sender": null, "text": "I am from customer care. Install AnyDesk so I can fix your refund.", "expect": "high", "pattern_id": "customer-care-screen-share", "lang": "en", "source": "synthetic"}
+{"sender": "VM-SBIBNK", "text": "Your statement is ready. Visit https://www.onlinesbi.sbi", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "VM-SBIBNQ", "text": "Your account will be suspended today. Click http://bit.ly/3xYz now", "expect": "high", "pattern_id": "fake-kyc", "lang": "en", "source": "synthetic"}
+{"sender": "SBI Support <sbi.support@gmail.com>", "text": "Dear customer, your account will be suspended. Update KYC now to avoid blocking.", "expect": "high", "pattern_id": "fake-kyc", "lang": "en", "source": "synthetic"}
+{"sender": "HDFC Bank <alerts@hdfcbank.com>", "text": "Your monthly statement is ready. Log in to NetBanking to view it.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "Income Tax Department <refund@incometax-india.xyz>", "text": "You have a pending tax payment of Rs 15,490. Open the attached form.", "expect": "high", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "UIDAI <noreply@uidai.gov.in>", "text": "Your Aadhaar update request has been received. Reference number 4471.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "Support <help@hdfcbank.co>", "text": "Your account needs attention. Please visit our site.", "expect": "high", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "Bank Alerts <info@mailer-news.com>", "text": "Please verify your details at http://sbi.co.in@secure-login.top/verify", "expect": "high", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "Amazon <order-update@amazon.in>", "text": "Your order has been shipped and will arrive tomorrow.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "ravi@gmail.com", "text": "Pongal holiday plan. Call me when you are free.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "Paytm Support <paytm.help@yahoo.in>", "text": "Your wallet is limited. Verify your details to restore it.", "expect": "high", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "Jio Care <care@jio-recharge.in>", "text": "Special offer ends today. Recharge now.", "expect": "high", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "TANGEDCO <billing@tangedco.gov.in>", "text": "Your electricity bill for October is generated.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "Karur Vysya Bank <alerts@kvb.co.in>", "text": "Your statement for October is available in net banking.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "Lakshmi Stores <billing@lakshmistores.in>", "text": "Thank you for your purchase. Your invoice is attached.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "AX-HDFCBK-T", "text": "Your OTP for the transaction of Rs 2,000 at Amazon is 551922. Do not share this OTP with anyone.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "VM-TNEBSM", "text": "Your electricity bill of Rs 840 is due on 15 Nov. Pay on the TANGEDCO app or website.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "+919840011223", "text": "Hi amma, I reached Chennai. Will call you tonight after dinner.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "VM-IRCTCI", "text": "Your ticket PNR 4521896637 is confirmed. Train departs 22:10 from Chennai Central.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "AX-HDFCBK-S", "text": "Your SIP of Rs 1,000 was processed. Statement at https://www.hdfcbank.com", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "VM-LICIND", "text": "Reminder: your LIC premium of Rs 3,200 is due on 12 Nov. Pay at https://licindia.in", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "+919840099001", "text": "Amma I had an accident and I am in hospital. This is my new number. Please send Rs 25000 urgently to this UPI id ravi.k@ybl and do not tell appa.", "expect": "high", "pattern_id": "family-emergency", "lang": "en", "source": "synthetic"}
+{"sender": "+919840099002", "text": "Hello it is your grandson. I am in trouble, arrested at police station. Please transfer money Rs 40000 today, don't tell anyone.", "expect": "high", "pattern_id": "family-emergency", "lang": "en", "source": "synthetic"}
+{"sender": "+919840099003", "text": "Mom I lost my phone, this is my new number. Emergency, send money 15000 to 9876501234@paytm please help.", "expect": "high", "pattern_id": "family-emergency", "lang": "en", "source": "synthetic"}
+{"sender": "VM-SBIBNK", "text": "Dear customer your SBI statement is ready, view it here https://statements-portal.example.org/x7", "expect": "high", "pattern_id": null, "lang": "en", "source": "synthetic"}

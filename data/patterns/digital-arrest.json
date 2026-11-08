@@ -1,0 +1,31 @@
+{
+  "id": "digital-arrest",
+  "name_ta": "டிஜிட்டல் கைது மோசடி",
+  "name_en": "Digital arrest",
+  "severity": "high",
+  "text_cues": {
+    "ta": [],
+    "en": [
+      "digital arrest",
+      "cbi",
+      "police",
+      "drugs",
+      "do not tell anyone",
+      "video call"
+    ],
+    "tanglish": []
+  },
+  "screen_cues": [],
+  "checks": [],
+  "title_ta": "டிஜிட்டல் கைது மோசடி போல் தெரிகிறது",
+  "explanation_ta": "போலீஸ் வீடியோ காலில் யாரையும் கைது செய்யவோ பணம் வாங்கவோ மாட்டார்கள்.",
+  "explanation_en": "Police never arrest anyone or take money over a video call.",
+  "caretaker_summary_ta": "TODO(hackathon): Tamil",
+  "caretaker_summary_en": "TODO(hackathon): one line for caretakers",
+  "what_to_do": [
+    "TODO(hackathon): steps"
+  ],
+  "source": "TODO(hackathon): cite",
+  "source_date": null,
+  "last_reviewed": "2026-11-04"
+}

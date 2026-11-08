@@ -1,0 +1,9 @@
+{"sender": "VM-SWIGGY", "text": "Your order is on the way. Click here to track it: https://www.swiggy.com/track/123", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "+919840022334", "text": "Last date to submit your school fee is 10 Nov. Please pay at the office.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "+919840033445", "text": "Police verification for your passport is on Monday at 10 am at Adyar station.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "VM-MYNTRA", "text": "We have received your complaint. For refund status, visit our website.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "+919840099004", "text": "Your uncle had a small accident but he is fine. He is in the hospital for a checkup. Visiting hours are 4 to 6 pm.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "+919840099005", "text": "Amma, reached the hospital. Doctor says surgery is not needed. Will call you tonight.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "+919840099006", "text": "I lost my phone yesterday, this is my new number. Save it please.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "VM-AIRTEL", "text": "Your recharge of Rs 299 is successful. Validity 28 days.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}
+{"sender": "+919840099007", "text": "Reminder: school bus fee Rs 1500 is due on 12 Nov. Please pay at the office.", "expect": "none", "pattern_id": null, "lang": "en", "source": "synthetic"}

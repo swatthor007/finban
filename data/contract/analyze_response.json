@@ -1,0 +1,15 @@
+{
+  "severity": "high",
+  "pattern_id": "digital-arrest",
+  "title_ta": "டிஜிட்டல் கைது மோசடி போல் தெரிகிறது",
+  "title_en": "Stop. This looks like a scam.",
+  "reasons": [
+    {"id": "pattern.digital-arrest", "level": "high", "text_ta": "போலீஸ் வீடியோ காலில் யாரையும் கைது செய்யவோ பணம் வாங்கவோ மாட்டார்கள்.", "text_en": "Police never arrest anyone or take money over a video call."}
+  ],
+  "explanation_ta": "போலீஸ் வீடியோ காலில் யாரையும் கைது செய்யவோ பணம் வாங்கவோ மாட்டார்கள்.",
+  "explanation_en": "Police never arrest anyone or take money over a video call.",
+  "audio_url": "/audio/digital-arrest.mp3",
+  "actions": ["alert_caretaker", "report_chakshu", "call_1930", "listen"],
+  "source_of_verdict": "rules",
+  "latency_ms": 840
+}

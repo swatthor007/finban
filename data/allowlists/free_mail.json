@@ -1,0 +1,5 @@
+{
+  "note": "Free mail providers anyone can sign up for. A bank/government name in the display name sent from one of these is a strong signal. Popular, so is_common() is true for them: 'common' must never cancel a brand mismatch. Starter list, not exhaustive.",
+  "source": "TODO(hackathon): cite / extend",
+  "domains": ["gmail.com", "googlemail.com", "yahoo.com", "yahoo.co.in", "yahoo.in", "outlook.com", "hotmail.com", "live.com", "rediffmail.com", "icloud.com", "proton.me", "protonmail.com", "aol.com", "mail.com", "zoho.com", "gmx.com"]
+}

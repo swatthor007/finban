@@ -1,0 +1,31 @@
+{
+  "id": "fake-kyc",
+  "name_ta": "KYC மோசடி / கணக்கு முடக்கம்",
+  "name_en": "Fake KYC / account blocked",
+  "severity": "high",
+  "text_cues": {
+    "ta": [],
+    "en": [
+      "kyc",
+      "blocked",
+      "suspended",
+      "update now",
+      "click",
+      "update kyc"
+    ],
+    "tanglish": []
+  },
+  "screen_cues": [],
+  "checks": [],
+  "title_ta": "KYC மோசடி போல் தெரிகிறது",
+  "explanation_ta": "வங்கிகள் லிங்க் அனுப்பி KYC புதுப்பிக்கச் சொல்லாது.",
+  "explanation_en": "Banks do not ask you to update KYC through a link.",
+  "caretaker_summary_ta": "TODO(hackathon): Tamil",
+  "caretaker_summary_en": "TODO(hackathon): one line for caretakers",
+  "what_to_do": [
+    "TODO(hackathon): steps"
+  ],
+  "source": "TODO(hackathon): cite",
+  "source_date": null,
+  "last_reviewed": "2026-11-04"
+}

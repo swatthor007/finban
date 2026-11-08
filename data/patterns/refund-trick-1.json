@@ -1,0 +1,30 @@
+{
+  "id": "refund-trick-1",
+  "name_ta": "தவறுதலாக அனுப்பினேன் மோசடி",
+  "name_en": "Refund trick: sent by mistake",
+  "severity": "high",
+  "text_cues": {
+    "ta": [],
+    "en": [
+      "sent by mistake",
+      "by mistake",
+      "send it back",
+      "wrong number",
+      "send back"
+    ],
+    "tanglish": []
+  },
+  "screen_cues": [],
+  "checks": [],
+  "title_ta": "பணம் திருப்பிக் கேட்கும் மோசடி போல் தெரிகிறது",
+  "explanation_ta": "தெரியாதவரின் UPI ஐடிக்கு பணத்தைத் திருப்பி அனுப்பாதீர்கள்.",
+  "explanation_en": "Do not send money back to a stranger's UPI id.",
+  "caretaker_summary_ta": "TODO(hackathon): Tamil",
+  "caretaker_summary_en": "TODO(hackathon): one line for caretakers",
+  "what_to_do": [
+    "TODO(hackathon): steps"
+  ],
+  "source": "TODO(hackathon): cite",
+  "source_date": null,
+  "last_reviewed": "2026-11-04"
+}
